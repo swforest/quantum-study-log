@@ -1,0 +1,38 @@
+# Codex 로컬 설정
+.codex/
+
+# 환경 변수와 인증 정보
+.env
+.env.*
+!.env.example
+credentials.*
+qiskit-ibm.json
+qiskit-ibm-runtime.json
+*.pem
+*.key
+
+# Python 가상환경과 캐시
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter 임시 파일
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# 편집기와 운영체제 파일
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 실행 중 생성되는 임시 파일
+*.log
+tmp/
+temp/
